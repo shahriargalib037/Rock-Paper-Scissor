@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Welcome to the RPS game!!</h2>
+    <h4>Watch out!! Your fate in your hand, choose wisely</h4>
+    <p>How many rounds you want to play? <input id="roundsInput" class="inn" type="number" required> <br>
+    <button class="bt" onclick="startgame()">Let's play the game</button></p>
+    <div class="option">
+        <button id="ROCK" class="move r">ROCK</button>
+        <button id="PAPER" class="move p">PAPER</button>
+        <button id="SCISSOR" class="move s">SCISSOR</button>
+    </div>
+
+    <div id="intro" class="results"></div>
+    <div id="results" class="results"></div>
+    <div id="finalres" class="finalres"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
